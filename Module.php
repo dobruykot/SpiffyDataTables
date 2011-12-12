@@ -8,13 +8,6 @@ use Zend\Loader\PluginClassLoader,
 
 class Module implements AutoloaderProvider
 {
-    public function init()
-    {
-        PluginClassLoader::addStaticMap(array(
-            'datatable'      => 'SpiffyDataTables\View\Helper\DataTable',
-        ));
-    }
-    
     public function getAutoloaderConfig()
     {
         return array(
