@@ -28,7 +28,7 @@ class DataTable extends HtmlElement
             return;
         }
         
-        $this->view->inlineScript()->appendFile('/modules/spiffy_datatables/js/jquery.dataTables.min.js');
+        $this->view->inlineScript()->appendFile('/js/SpiffyDataTables/jquery.dataTables.min.js');
         
         self::$loaded = true;
     }
