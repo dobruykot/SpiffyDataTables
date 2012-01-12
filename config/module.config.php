@@ -3,7 +3,7 @@ return array(
     'di' => array(
         'instance' => array(
             'alias' => array(
-                'spiffy_datatables_data' => 'SpiffyDataTables\Service\Data'
+                'spiffydatatables_data_service' => 'SpiffyDataTables\Service\Data'
             ),
             'Zend\View\HelperLoader' => array(
                 'parameters' => array(

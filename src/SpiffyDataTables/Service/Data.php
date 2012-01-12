@@ -9,7 +9,7 @@ class Data
         'jsClick' => 'cbJsClick',
     );
     
-    public function format(array $data, array $spec)
+    public function format(array &$data, array $spec)
     {
         foreach($spec as $name => $s) {
             $cb = $this->types[$s['type']];
